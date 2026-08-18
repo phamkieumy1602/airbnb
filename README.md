@@ -23,7 +23,7 @@ The two source files were merged on listing ID using an inner join, keeping only
 
 **Exploratory correlation check**
 
-![Correlation heatmap of listing rating against review-derived variables](images/correlation_heatmap.png)
+![Correlation heatmap of listing rating against review-derived variables](correlation_heatmap.png)
 
 Sentiment and several review topics show moderate-to-strong correlation with listing rating — topics 1, 6, and 9 correlate negatively (likely complaint-driven themes), while sentiment and topics 4, 8, and 10 correlate positively. Review count itself barely correlates with rating at all, suggesting *what* guests say matters far more than *how many* reviews a listing has.
 
