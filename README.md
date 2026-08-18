@@ -29,7 +29,7 @@ Sentiment and several review topics show moderate-to-strong correlation with lis
 
 **Target variable**
 
-![Density plot of Airbnb listing ratings](images/rating_density_plot.png)
+![Density plot of Airbnb listing ratings](rating_density_plot.png)
 
 Ratings are heavily left-skewed, clustered near 5. Rather than using a raw regression target, listings were split into two classes based on the rating distribution: the top 40% as `Excellence`, the bottom 60% as `Fair` — turning this into a binary classification problem.
 
@@ -52,9 +52,9 @@ Adding review-derived features improved every single model, often substantially:
 | Decision Tree | 0.648 | 0.753 |
 | **Random Forest** | 0.703 | **0.799** |
 
-![ROC curves comparing all four full models](images/roc_curves.png)
+![ROC curves comparing all four full models](roc_curves.png)
 
-![Confusion matrices for all four full models](images/confusion_matrices.png)
+![Confusion matrices for all four full models](confusion_matrices.png)
 
 **Random Forest (full model)** was the best performer, with the highest ROC-AUC and the best balance of precision and recall on the harder-to-predict `Excellence` class.
 
@@ -86,7 +86,4 @@ Used here with the original researchers' permission for portfolio/educational pu
 
 *Originally developed as a graded project for CGMAI3003U — Machine Learning for Predictive Analytics in Business (CBS International Summer University Programme); adapted here for portfolio presentation.*
 
-## License
-
-Code is released under the MIT License (see `LICENSE`). The dataset is not covered by this license — see the citation note above.
 
