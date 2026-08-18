@@ -64,19 +64,6 @@ Adding review-derived features improved every single model, often substantially:
 - **Host professionalism is a meaningful signal.** `host_listings_count` ranks among the top predictors, suggesting hosts who manage multiple properties tend to run more standardized, reliable operations.
 - **Review-topic variables are correlated with each other**, which limits how confidently any single topic's importance score can be interpreted in isolation (see the notebook's discussion of Mean Decrease in Impurity and its limitations).
 
-## Repo contents
-
-- `airbnb_guest_satisfaction_showcase.ipynb` — full analysis: cleaning, EDA, four models compared with/without review features, feature importance, and an explanation-technique discussion
-- `requirements.txt` — Python dependencies
-- `data/` — not included in this repo; place `London_Airbnb_Listings.xlsx` and `London_Airbnb_Reviews.csv` here to run the notebook
-- `images/` — chart exports used in this README
-
-## How to run it
-
-1. Clone or download this repo
-2. `pip install -r requirements.txt`
-3. Add the two dataset files to a `data/` folder at the repo root
-4. Open `airbnb_guest_satisfaction_showcase.ipynb` in Jupyter and run all cells
 
 ## Data & citation
 
